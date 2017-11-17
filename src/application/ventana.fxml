@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #D358F7;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="454.0" prefHeight="501.0" prefWidth="246.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <JFXButton layoutX="29.0" layoutY="444.0" style="-fx-border-color: #760293#a903d3; -fx-border-radius: 5;" text="GET STARTED" textFill="#a903d3" />
+            <JFXToggleButton layoutX="15.0" layoutY="377.0" text="UNDER 18" toggleColor="#a903d3" toggleLineColor="#df6ffc" unToggleColor="#4d4d4d" unToggleLineColor="#d0d0d0" />
+            <JFXPasswordField focusColor="#a903d3" labelFloat="true" layoutX="18.0" layoutY="287.0" prefHeight="25.0" prefWidth="211.0" promptText="REPEAT PASSWORD" />
+            <JFXPasswordField focusColor="#a903d3" labelFloat="true" layoutX="18.0" layoutY="238.0" prefHeight="25.0" prefWidth="211.0" promptText="PASSWORD" />
+            <JFXTextField focusColor="#a903d3" labelFloat="true" layoutX="18.0" layoutY="192.0" prefHeight="25.0" prefWidth="211.0" promptText="E-MAIL" />
+            <JFXTextField focusColor="#a903d3" labelFloat="true" layoutX="15.0" layoutY="141.0" prefHeight="25.0" prefWidth="217.0" promptText="USERNAME" />
+            <JFXTextField focusColor="#a903d3" labelFloat="true" layoutX="15.0" layoutY="90.0" prefHeight="25.0" prefWidth="217.0" promptText="LAST NAME" />
+            <JFXTextField focusColor="#a903d3" labelFloat="true" layoutX="18.0" layoutY="37.0" prefHeight="25.0" prefWidth="211.0" promptText="FIRST NAME" />
+            <JFXTextField focusColor="#a903d3" labelFloat="true" layoutX="14.0" layoutY="336.0" prefHeight="25.0" prefWidth="211.0" promptText="PHONE NUMBER" />
+         </children>
+      </Pane>
+      <Pane id="fondo" opacity="0.51" prefHeight="501.0" prefWidth="455.0" stylesheets="@application.css" />
+      <Label layoutX="30.0" layoutY="90.0" prefHeight="114.0" prefWidth="301.0" text="Create Your Own Account" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="150.0" layoutY="230.0" style="-fx-border-color: #FFFFFFFF; -fx-border-radius: 5;" text="SING IN" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+         </padding>
+      </JFXButton>
+      <JFXButton layoutX="30.0" layoutY="230.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 5; -fx-background-color: #FFFFFF;" text="ABOUT US" textFill="#a903d3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+         </padding>
+      </JFXButton>
+   </children>
+</AnchorPane>
